@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-   dd("it's works open");
+   dd(env("OPENSHIFT_DATA_DIR"));
 });
