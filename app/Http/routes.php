@@ -13,5 +13,5 @@
 
 Route::get('/', function () {
 	echo "new test 1234";
-   dd(getenv("OPENSHIFT_DATA_DIR"));
+   dd(getenv('OPENSHIFT_ENV_VAR'));
 });
