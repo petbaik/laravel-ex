@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-   dd("it's works");
+   dd("it's works open");
 });
